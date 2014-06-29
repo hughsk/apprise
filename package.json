@@ -1,0 +1,35 @@
+{
+  "name": "apprise",
+  "version": "1.0.0",
+  "description": "A simple browser module for displaying stacking notifications",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy example.js:bundle.js --open",
+    "bundle": "browserify example.js -o bundle.js"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "dependencies": {
+    "emitter-component": "^1.1.1",
+    "once": "^1.3.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "browserify": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/apprise.git"
+  },
+  "keywords": [
+    "notify",
+    "notification",
+    "browserify",
+    "display",
+    "alert"
+  ],
+  "homepage": "https://github.com/hughsk/apprise",
+  "bugs": {
+    "url": "https://github.com/hughsk/apprise/issues"
+  }
+}
